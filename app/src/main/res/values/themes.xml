@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Register_Fragment" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/blue</item>
+    </style>
+    <style name="Base.Theme.Register_Fragment.WithActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/blue</item>
+    </style>
+
+    <style name="Theme.Register_Fragment" parent="Base.Theme.Register_Fragment" />
+    <style name="Theme.Register_Fragment.title" parent="Base.Theme.Register_Fragment">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+</resources>
